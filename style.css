@@ -1,0 +1,98 @@
+body{
+padding:2%;
+}
+.row{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+}
+.row>div{
+margin:1%;
+padding: 1.5%;
+border: 2px solid blue;
+text-align: center;
+width: auto;
+height: auto;
+}
+img{
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button{
+width:100%;
+padding: 2%;
+background-color:teal;
+color: white;
+box-shadow: 2px 2px 2px #maroon;
+
+}
+h1{
+	background-color:teal;
+	margin: 1%;
+	color: white;
+	padding: 1%;
+	width: 100%;
+	box-shadow:2px 2px 2px #ddd;
+	text-align: center;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+.row{
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
+justify-content:center;
+}
+.row>div{
+margin:1%;
+padding: 1%;
+border: 1px solid #ddd;
+width: 90%;
+}
+h1{
+	max-width:90%;
+}
+	
+}
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+	.row{
+	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+}
+.row>div{
+margin:1%;
+padding: 1%;
+border: 1px solid #ddd;
+width: 90%;
+}
+h1{
+	max-width:100%;
+}
+
+	
+}
+@media only screen and (min-device-width:769px) and (max-device-width:1024px){
+	.row{
+	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+}
+.row>div{
+margin:1%;
+padding: 1%;
+border: 1px solid #ddd;
+width: 90%;
+}
+h1{
+	max-width:100%;
+}
+
+	
+}

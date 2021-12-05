@@ -1,0 +1,26 @@
+{"mobiles":[
+  {   
+    "img":"card.png",
+    "model":"J2", 
+    "name":"Samsung",
+    "price":"Price-10K$",
+    "offer":"Offer-9.5K$",
+    "button":"Click Me"
+ },
+{   
+    "img":"card.png",
+    "model":"S2", 
+    "name":"S2S",
+    "price":"Price-11K$",
+    "offer":"Offer-9K$",
+    "button":"Click Me"
+ },
+    {   
+    "img":"card.png",
+    "model":"KK", 
+    "name":"Jio",
+    "price":"Price-13K$",
+    "offer":"Offer-11K$",
+    "button":"Click Me"
+ }
+]}
